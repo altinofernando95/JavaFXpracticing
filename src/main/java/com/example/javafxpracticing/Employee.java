@@ -8,8 +8,14 @@ public class Employee
     public String name;
     private UUID id;
 
-    public  Employee(){
+    public  Employee()
+    {
         id = UUID.randomUUID();
+    }
+
+    public UUID getId()
+    {
+        return id;
     }
 
 }
